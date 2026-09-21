@@ -16,3 +16,10 @@ assert.equal(canWriteCanonical({...siteA,epistemicStatus:EPISTEMIC_STATUS.COUNTE
 assert.throws(()=>createAtlasState({year:0}),/nonzero/);
 assert.throws(()=>createSite({id:'x',name:'X',kind:'unknown',coordinates:[0,0]}),/unsupported/);
 console.log('Atlas network tests passed');
+
+import { sites as calibrationSites, edges as calibrationEdges, flows as calibrationFlows } from '../data/atlas/neolithic-anatolia-balkans.js';
+assert.ok(calibrationSites.length >= 5);
+assert.ok(calibrationEdges.every(edge => edge.evidence.length > 0 && edge.confidence));
+assert.ok(calibrationFlows.every(flow => flow.evidence.length > 0 && flow.confidence));
+assert.ok(calibrationEdges.every(edge => calibrationSites.some(site => site.id === edge.from) && calibrationSites.some(site => site.id === edge.to)));
+console.log('Neolithic calibration dataset tests passed');
