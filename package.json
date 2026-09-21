@@ -6,8 +6,9 @@
   "scripts": {
     "serve": "python3 -m http.server 8000",
     "validate": "node scripts/validate.mjs",
-    "test": "node scripts/validate.mjs --strict",
-    "base": "node scripts/build-base.mjs"
+    "test": "node scripts/validate.mjs --strict && node tests/atlas-network.test.mjs",
+    "base": "node scripts/build-base.mjs",
+    "test:atlas": "node tests/atlas-network.test.mjs"
   },
   "devDependencies": {
     "topojson-client": "^3.1.0",
