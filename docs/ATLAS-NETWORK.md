@@ -36,3 +36,11 @@ Neolithic propagation from Anatolia through the Balkans into Central and Western
 - synthetic: authored fictional content
 
 A name does not determine status; the claim and its provenance do.
+
+## Corridor inference
+
+Modern roads, railways, ports, river crossings and old cities may be used as hypothesis priors because durable geography can repeatedly channel movement. They are not evidence by themselves that the same route existed in an earlier period. A candidate edge should combine independent evidence where possible: archaeological sites, dated finds, historical itineraries/maps, terrain and passes, navigability, palaeoenvironment, settlement longevity and later route persistence.
+
+Routing must also encode friction and barriers. Productive farmland may attract settlement while mountains, marshes, dangerous rivers, hostile polities, tolls, frontier zones and conflict can divert movement. Battle locations and fortified chokepoints may provide evidence about strategic corridors, but must be interpreted for their own period before being projected backward or forward.
+
+Use later/modern corridors as priors to investigate, not as automatic historical edges. Negative evidence is first-class: for example, research on the Middle Struma warns that an apparently natural river corridor may instead have impeded movement while mountain passes carried contacts.
